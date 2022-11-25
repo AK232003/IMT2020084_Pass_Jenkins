@@ -18,11 +18,5 @@ pipeline {
                 sh "./Unit_test1.py"
             }
         }
-        stage('Test Code Failed') {
-            steps {
-                sh "chmod u+x Unit_test2.py"
-                sh "./Unit_test2.py"
-            }
-        }
     } 
 }

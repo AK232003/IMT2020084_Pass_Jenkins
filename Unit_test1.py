@@ -21,7 +21,7 @@ class TestCase(unittest.TestCase):
     def testcase5(self):
         self.assertEqual(LimitedSubtraction(3, 23), 0)
 
-    def testcase5(self):
+    def testcase6(self):
         self.assertEqual(LimitedSubtraction(3, 4), 0)
 
 
